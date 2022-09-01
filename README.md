@@ -4,4 +4,8 @@
   Simple Typescript application to implements the Polymorphism project default with Dependencies Injection and Control Inversion.
   
   
-![screenshot-code](https://user-images.githubusercontent.com/55366815/187927466-1fabfcd7-7ef0-4db2-b246-b1b4fbdeddb8.png)
+## Screenshot Code:
+![screenshot-code](https://user-images.githubusercontent.com/55366815/187927782-d97afcc1-113b-448d-a12d-464adf53ff8c.png)
+
+## Screenshot Output:
+![screenshot-output](https://user-images.githubusercontent.com/55366815/187928548-fcbcbb26-b6a5-4c48-a758-452fcb2f200d.png)
