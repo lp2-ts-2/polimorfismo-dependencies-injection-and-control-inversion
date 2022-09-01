@@ -1,8 +1,8 @@
 export default class Usuario {
 
-    public nome: string;
-    public email: string;
-    public telefone: string;
+    private nome: string;
+    private email: string;
+    private telefone: string;
 
     constructor (
         nome: string,
@@ -14,11 +14,11 @@ export default class Usuario {
         this.telefone = telefone;
     }
 
-    public static Usuario(nome: string, email: string, telefone: string) {
+    static Usuario(nome: string, email: string, telefone: string) {
         return new Usuario(nome, email, telefone);
     }
 
-    public update(nome: string, email: string, telefone: string): void {
+    update(nome: string, email: string, telefone: string): void {
         nome = nome;
         email = email;
         telefone = telefone;
@@ -26,7 +26,7 @@ export default class Usuario {
         this.validate();
     }
 
-    public validate(): void {
+    validate(): void {
         if(this.nome == null || !this.nome) {
             throw new Error("Nome é obrigatório");
         } else if(this.email == null || !this.email) {
@@ -36,15 +36,15 @@ export default class Usuario {
         }
     }
 
-    public Nome(): string {
+    Nome(): string {
         return this.nome;
     }
 
-    public Email(): string {
+    Email(): string {
         return this.email;
     }
 
-    public Telefone(): string {
+    Telefone(): string {
         return this.telefone;
     }
 }
